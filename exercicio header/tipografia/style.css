@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+*{
+   padding: 0;
+   margin: 0; 
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 15px 15px;
+    width: 100%;
+    border-bottom: 1px solid #EBEBEB;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+.menuitem{
+    color:#757575;
+    font-family:'Rubik', sans-serif;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.usuario{
+    display:flex;
+    justify-content: end;
+}
+input{
+    border: none;
+    background-color: #fafafa;
+    border-radius: 15px;
+    height: 32px;
+    position: relative;
+    padding-left: 50px;
+}
+.lupa{
+    color: gray;
+    position: absolute;
+    top: 28px;
+    left: 390px;
+    width: 6px;
+}
+.logo_box{
+    display: flex;
+    align-items:flex-start;
+    gap: 22px;
+}
+.button{
+    align-items: center;
+    padding: 14px 16px;
+    border: 1px;
+    background-color:#1A8917;
+    color: #fafafa;
+    font-family:'inter', sans-serif;
+    text-decoration: none;
+    border-radius: 23px;
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+}
+.anotação{
+    display: flex;
+    align-items: center;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    padding: 15px 15px;
+    width: 100%;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.card{
+    background:#fafafa;
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10% auto;
+    border-top:1px solid #000754;
+    border-bottom: 1px solid #000754;
+}
+.author{
+    display: flex;
+    justify-content:center;
+    padding-right: 335px;   
+    gap: 5px; 
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+}
