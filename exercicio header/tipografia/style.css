@@ -80,17 +80,13 @@ input{
     padding: 15px 15px;
     width: 100%;
 }
-.author{
-    display: flex;
-    align-items: center;
-}
 .card{
     background:#fafafa;
     width: 100%;
     max-width: 800px;
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     margin: 10% auto;
     border-top:1px solid #000754;
@@ -98,11 +94,37 @@ input{
 }
 .author{
     display: flex;
-    justify-content:center;
-    padding-right: 335px;   
+    justify-content:flex-start;
+    padding-right: 335px;
+    padding-top: 15px;  
     gap: 5px; 
+    
 }
-.tittle{
+.title{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+.bandeira{
     display: flex;
     justify-content: center;
+    padding: 60px 0;
+}
+.informação{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 15px;
+    height: 125px;
+    width: 638px;
+}
+.rodapé{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+}
+.botão{
+    display: flex;
+    border: none;
+    background-color: #757575;
 }
